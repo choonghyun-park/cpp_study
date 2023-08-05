@@ -60,3 +60,5 @@ vscode에서 C++을 사용하기 위한 기본 환경설정을 정리하였습�
 여담: 근데, 위에 json 파일이 원래 영상에서 제공한 것과는 다른 파일이다. 처음에 위에 json 파일로 잘 안돼서 찾아봤던 것인데, 결론적으로 .vscode를 루트폴더에 놔야 컴파일이 문제없이 되는 것 같다. 아마도.. \ 
 Keyboard shortcut을 해놔서 `ctrl+alt+C` 하면 `Run Build Task`가 실행될 것이다. 정석은 `ctrl+shift+P` 한 후에, 바로 `Run Build Task` 하는 것이다.
 
+## 백준 문제풀이
+[C++ 배우기(101-150)](https://www.acmicpc.net/workbook/view/568)
