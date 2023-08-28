@@ -96,3 +96,11 @@ g++ p1.cpp -o p1	# p1
 
 ### TODO
 * -o 이외에도 g++에 다른 옵션이 많다. 일단 cpp 공부하는데는 이정도면 충분하니 나중에 공부해 보도록 하자.
+
+## References
+### 230828
+* [C++ sort algorithm](https://blockdmask.tistory.com/178) 
+* [C++ 어레이에서 요소의 인덱스 찾기](https://www.techiedelight.com/ko/find-index-of-an-element-in-array-cpp/)
+* [C++ 배열 복사하는 방법](https://codechacha.com/ko/cpp-copy-array/)
+* [백준 2822번 점수 계산](https://jaimemin.tistory.com/843)
+* [C++ STL Vector 사용법과 예제코드](https://cocoon1787.tistory.com/244)
