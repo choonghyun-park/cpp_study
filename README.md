@@ -62,3 +62,34 @@ Keyboard shortcut을 해놔서 `ctrl+alt+C` 하면 `Run Build Task`가 실행될
 
 ## 백준 문제풀이
 [C++ 배우기(101-150)](https://www.acmicpc.net/workbook/view/568)
+
+## C++ compile in linux
+g++ 컴파일러를 사용해서 linux 상에서 c++ 코드를 컴파일 할 수 있다.
+
+### install
+```
+sudo apt-get install g++
+```
+
+### compile
+`p1.cpp` 라는 소스코드가 있다고 해보자.
+```sh
+# method
+g++ -o [생성 파일명] [컴파일 파일명]
+
+# example
+g++ -o p1 p1.cpp
+```
+이렇게 하면 p1 이라는 execute 파일이 생성된다. \
+단, 생성 파일명을 지정하지 않고 컴파일 하는 경우 `a.out` 이라는 기본 파일명으로 생성된다.
+
+```sh
+g++ -o p1.cpp
+# a.out
+```
+
+### run
+```
+./p1
+```
+
