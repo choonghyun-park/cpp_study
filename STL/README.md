@@ -10,16 +10,16 @@
 ### 시퀀스 컨테이너(Sequence Container)
 일반적인 자료구조와 동일한 형태이다.
 * [vector](./vector.md) 
+* [deque](./deque.md)
 * list
 * slist
-* deque
 
 ### 연관 컨테이너(Accosiated array)
 일정한 규칙에 따라 자료를 조직화하여 저장한다.
-* set
-* multiset (set과 같지만 중복 요소를 허용)
-* map
-* multimap (map과 같지만 중복 키를 허용)
+* [set/multiset](./set_multiset.md) 
+    * multiset은 set과 같지만 중복 요소를 허용
+* [map/multimap](./map_multimap.md) 
+    * multimap은 map과 같지만 중복 키를 허용
 * hash_set
 * hash_multiset
 * hash_map
@@ -27,9 +27,9 @@
 
 ### 컨테이너 어뎁터(Container Adaptor)
 시퀀스 컨테이너를 변형시켜 stack, queue, priority queue 형태로 저장
-* queue
-* priority queue
-* stack
+* [queue](./queue.md)
+* [priority queue](./priority_queue.md)
+* [stack](./stack.md)
 
 ## 2. 알고리즘(Algorithm)
 알고리즘은 `정렬, 삭제, 검색, 연산` 등의 활동을 수행하는 작업을 정의해 놓은 템플릿 함수이다.
@@ -55,3 +55,4 @@ STL은 함수 호출 연산자(Operator)를 오버로드하는 클래스들을 �
 ## Reference
 * [STL wiki](https://ko.wikipedia.org/wiki/%ED%91%9C%EC%A4%80_%ED%85%9C%ED%94%8C%EB%A6%BF_%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
 * [STL이 뭘까?](https://ssocoit.tistory.com/24)
+* [C++ STL 정리](https://daekyojeong.github.io/posts/languageCpp1/)
