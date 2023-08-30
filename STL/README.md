@@ -31,7 +31,7 @@
 * priority queue
 * stack
 
-# 2. 알고리즘(Algorithm)
+## 2. 알고리즘(Algorithm)
 알고리즘은 `정렬, 삭제, 검색, 연산` 등의 활동을 수행하는 작업을 정의해 놓은 템플릿 함수이다.
 * sort
 * find
@@ -40,7 +40,7 @@
 * generate
 * binary_search
 
-# 3. 반복자(Iterator)
+## 3. 반복자(Iterator)
 반복자는 컨테이너 원소를 순회하는 방법을 추상화한 객체들을 뜻한다.
 * input iterators : 값들의 시퀀스를 읽는 데 사용
 * output iterators : 값들의 시퀀스를 쓰는 데 사용
@@ -48,7 +48,7 @@
 * bidirectional iterators : forward iterators의 특징을 가지며 앞뒤로 다 움직일 수 있다.
 * random access iterators : 자유롭게 움직일 수 있습니다.
 
-# 4. 함수자(Functor)
+## 4. 함수자(Functor)
 STL은 함수 호출 연산자(Operator)를 오버로드하는 클래스들을 포함한다. 이러한 클래스들의 인스턴스들은 함수자 또는 함수 객체라고 한다.
 
 
