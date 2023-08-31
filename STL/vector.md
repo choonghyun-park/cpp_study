@@ -18,6 +18,8 @@ vector<int> v3(3,1);
 vector<int> v4(v3);
 // v3를 복사해서 생성
 // v4 = [1,1,1]
+vector<int> v5 = {1,2,3,4,5};
+// v5 = [1,2,3,4,5]
 ```
 ### 할당(assign)
 ```cpp

@@ -33,7 +33,7 @@ int main() {
     vector<int> arr = {1,2,3,4,5};
     int r=3;
     vector<int> comb(r); // {0,0,0}
-    
+
     Combination(arr,comb,r,0,0);
 }
 
@@ -54,3 +54,6 @@ r = 3
 2 4 5 
 3 4 5 
 ```
+
+## Reference
+* [조합(Combination) 구현하기](https://ansohxxn.github.io/algorithm/combination/)
