@@ -1,6 +1,7 @@
-# References
-[c++ 배우기](https://www.acmicpc.net/workbook/view/568)를 풀면서 참고한 Reference 를 정리한 페이지입니다.
+# Baekjoon
+[c++ 배우기](https://www.acmicpc.net/workbook/view/568)를 풀이한 소스코드입니다. 
 
+## Reference
 ### 230828
 * [C++ sort algorithm](https://blockdmask.tistory.com/178) 
 * [C++ 어레이에서 요소의 인덱스 찾기](https://www.techiedelight.com/ko/find-index-of-an-element-in-array-cpp/)
