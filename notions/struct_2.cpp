@@ -17,7 +17,7 @@ struct student {
 int main(){
     student s={1,"박충현",90.5};
 
-    
+    s.Show();    
     return 0;
 }
 
