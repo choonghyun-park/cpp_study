@@ -51,6 +51,8 @@
 ## 4. 함수자(Functor)
 STL은 함수 호출 연산자(Operator)를 오버로드하는 클래스들을 포함한다. 이러한 클래스들의 인스턴스들은 함수자 또는 함수 객체라고 한다.
 
+## TODO
+* begin(), end() 메소드를 를 가지는 컨테이너와 그렇지 않은 컨테이너 정리하기.
 
 ## Reference
 * [STL wiki](https://ko.wikipedia.org/wiki/%ED%91%9C%EC%A4%80_%ED%85%9C%ED%94%8C%EB%A6%BF_%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
