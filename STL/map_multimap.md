@@ -8,13 +8,13 @@ STL map, multimap의 기본 예제를 정리한 페이지입니다.
 ```cpp
 map<int,int> m;
 map<string,int> m;
-multiset<int> m;
-multiset<vector<int>> m;
+multimap<int> m;
+multimap<vector<int>> m;
 ```
 ### 추가
 ```cpp
 m[key] = val;
-// key가 가르키는 위치에 va1 삽입
+// key가 가르키는 위치에 val 삽입
 m.insert(item);
 // item은 pair 객체
 ```
