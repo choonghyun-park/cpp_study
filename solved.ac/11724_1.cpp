@@ -12,6 +12,9 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+    /*
+    map,set을 사용하여 graph를 표현하는 방식.
+    */
     
     int N,M;
     cin >> N >> M;
