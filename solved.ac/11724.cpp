@@ -9,6 +9,10 @@ using namespace std;
 void make_edge(map<int,vector<int>> &graph, int key, int value);
 
 int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    
     int N,M;
     cin >> N >> M;
     /*
@@ -64,7 +68,7 @@ int main() {
         }
         connects_cnt++;
     }
-    cout << connects_cnt << endl;
+    cout << connects_cnt << '\n';
 }
 
 void make_edge(map<int,vector<int>> &graph, int key, int value){
