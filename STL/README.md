@@ -34,11 +34,21 @@
 ## 2. 알고리즘(Algorithm)
 알고리즘은 `정렬, 삭제, 검색, 연산` 등의 활동을 수행하는 작업을 정의해 놓은 템플릿 함수이다.
 * sort
+* stable_sort
 * find
 * transform
 * for_each
 * generate
 * binary_search
+* lower_bound
+* upper_bound
+
+### Permutation & Combination 
+`next_permutation` 함수를 사용하여 순열을 구할 수 있으며, Combination 역시 이 함수를 응용하여 구한다. `next_permutation`은 Algorithm 라이브러리에 포함되어 있다. \
+* [permutation](../notions/permutation.md)
+* [combination](../notions/combination.md)
+
+
 
 ## 3. 반복자(Iterator)
 반복자는 컨테이너 원소를 순회하는 방법을 추상화한 객체들을 뜻한다.
