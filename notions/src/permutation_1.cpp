@@ -5,26 +5,25 @@
 using namespace std;
 
 int main() {
-    int n,r; // nPr
-    n = 5;
-    r = 3
+    // nPn
+    int n = 5; 
 
     vector<int> vec;
-    vector<int> 
 
     for (int i=0;i<n;i++){
         vec.push_back(i);
     }
 
-
+    int no_of_case = 0;
 
     do{
         for (auto it=vec.begin();it!=vec.end();it++){
             cout << *it << ' ';
         }
         cout << endl;
+        no_of_case++;
     }while(next_permutation(vec.begin(),vec.end()));
 
-
+    cout << "No of case : " << no_of_case << endl;
 }
 
