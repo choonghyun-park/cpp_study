@@ -18,8 +18,8 @@
 일정한 규칙에 따라 자료를 조직화하여 저장한다.
 * [set/multiset](./set_multiset.md) 
     * multiset은 set과 같지만 중복 요소를 허용
-* [map/multimap](./map_multimap.md) 
-    * multimap은 map과 같지만 중복 키를 허용
+* [map](./map.md) 
+* [multimap](./multimap.md)
 * hash_set
 * hash_multiset
 * hash_map
@@ -58,3 +58,4 @@ STL은 함수 호출 연산자(Operator)를 오버로드하는 클래스들을 �
 * [STL wiki](https://ko.wikipedia.org/wiki/%ED%91%9C%EC%A4%80_%ED%85%9C%ED%94%8C%EB%A6%BF_%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
 * [STL이 뭘까?](https://ssocoit.tistory.com/24)
 * [C++ STL 정리](https://daekyojeong.github.io/posts/languageCpp1/)
+* [C++로 알고리즘 시작하기](https://dsc-sookmyung.tistory.com/93)

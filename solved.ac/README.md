@@ -10,7 +10,9 @@ cout.tie(NULL);
 cin.tie(NULL);
 ```
 main 함수 초반에 위와 같이 작성해 주고, 추가적으로 개행문자에 `endl` 대신 `'\n'` 을 사용해주면 된다. \\
-참고자료는 [여기](https://velog.io/@hayounsong/%EB%B0%B1%EC%A4%80-11659%EB%B2%88%EA%B5%AC%EA%B0%84-%ED%95%A9-%EA%B5%AC%ED%95%98%EA%B8%B0-4-C-%ED%92%80%EC%9D%B4)
+참고자료는 [여기](https://velog.io/@hayounsong/%EB%B0%B1%EC%A4%80-11659%EB%B2%88%EA%B5%AC%EA%B0%84-%ED%95%A9-%EA%B5%AC%ED%95%98%EA%B8%B0-4-C-%ED%92%80%EC%9D%B4) \
+더 잘 정리되어있는 내용이 있어서 함께 작성한다. [여기](https://dsc-sookmyung.tistory.com/93)도 참고.
+
 
 ## graph
 ### 기존의 풀이법
